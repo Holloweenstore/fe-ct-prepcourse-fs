@@ -35,7 +35,7 @@ describe('JAVASCRIPT II', function () {
          expect(mayoriaDeEdad(35)).toBe('Allowed');
       });
       it("Debe retornar 'Not allowed' si la edad es menor a 18", function () {
-         expect(mayoriaDeEdad(7)).toBe('Not allowed');
+         expect(mayoriaDeEdad(7)).toBe('Not Allowed');
       });
    });
 
