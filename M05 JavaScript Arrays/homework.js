@@ -1,21 +1,29 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 
 function devolverPrimerElemento(array) {
+   return array[0];
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
 }
 
 function devolverUltimoElemento(array) {
+   return array [array.length - 1]
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
 }
 
 function obtenerLargoDelArray(array) {
+   return (array.length)
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
 }
 
 function incrementarPorUno(array) {
+   var nuevoarreglo = [];
+   for(var i = 0; i < array.length; i++) {
+      nuevoarreglo[i] = array[i] + 1;
+   }
+   return newArray;
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
